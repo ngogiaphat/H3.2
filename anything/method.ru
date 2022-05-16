@@ -16,7 +16,6 @@ def boom
 end
 boom
 boom
-
 # Default parms
 print "\n"
 def line(cnt, ender = "+", fill = "-")
