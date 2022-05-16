@@ -17,7 +17,6 @@ class Program
   {
     // Create a myCar object
     Car myCar = new Car();
-
     // Call the honk() method (From the Vehicle class) on the myCar object
     myCar.honk();
 
