@@ -6,7 +6,6 @@ class Vehicle  // base class (parent)
     Console.WriteLine("Tuut, tuut!");
   }
 }
-
 class Car : Vehicle  // derived class (child)
 {
   public string modelName = "Mustang";  // Car field
