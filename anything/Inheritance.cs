@@ -10,7 +10,6 @@ class Car : Vehicle  // derived class (child)
 {
   public string modelName = "Mustang";  // Car field
 }
-
 class Program
 {
   static void Main(string[] args)
