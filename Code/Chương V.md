@@ -1,5 +1,3 @@
-# Chương 5: Cấu trúc vòng lặp
-
 ## **1/ Giới thiệu về vòng lặp:**
 
 ### 1.1: Thế nào là vòng lặp:
@@ -72,7 +70,7 @@ Break dùng để kết thúc vòng lặp và thoát khỏi vòng lặp.
 
 4.1.1: Cách hoạt động của lệnh break:
 
-![Untitled](Chu%CC%9Bo%CC%9Bng%205%20Ca%CC%82%CC%81u%20tru%CC%81c%20vo%CC%80ng%20la%CC%A3%CC%86p%20d994de0e59ff4439942a8a446616ca3d/Untitled.png)
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9466ac47-c6a9-4c74-852b-1899e8635f8d/Untitled.png)
 
 4.1.2: Ví dụ về break:
 
@@ -111,7 +109,7 @@ Continue dùng kết thúc sớm một vòng lặp và tiếp tục vòng lặp 
 
 4.2.1: Cách hoạt động của continue:
 
-![Untitled](Chu%CC%9Bo%CC%9Bng%205%20Ca%CC%82%CC%81u%20tru%CC%81c%20vo%CC%80ng%20la%CC%A3%CC%86p%20d994de0e59ff4439942a8a446616ca3d/Untitled%201.png)
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dee79cee-8aed-45c8-af6a-9b49e72dc335/Untitled.png)
 
 4.2.2: Ví dụ về continue:
 
