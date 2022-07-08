@@ -1,14 +1,12 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-
 public class InputBox
 {
   public static DialogResult Show(string title, string promptText, ref string value)
   {
     return Show(title, promptText, ref value, null);
   }
-
   public static DialogResult Show(string title, string promptText, ref string value,
                                   InputBoxValidation validation)
   {
@@ -46,11 +44,15 @@ public class InputBox
     form.MaximizeBox = false;
     form.AcceptButton = buttonOk;
     form.CancelButton = buttonCancel;
-    if (validation != null) {
-      form.FormClosing += delegate(object sender, FormClosingEventArgs e) {
-        if (form.DialogResult == DialogResult.OK) {
+    if (validation != null) 
+    {
+      form.FormClosing += delegate(object sender, FormClosingEventArgs e) 
+      {
+        if (form.DialogResult == DialogResult.OK) 
+        {
           string errorText = validation(textBox.Text);
-          if (e.Cancel = (errorText != "")) {
+          if (e.Cancel = (errorText != "")) 
+          {
             MessageBox.Show(form, errorText, "Validation Error",
                             MessageBoxButtons.OK, MessageBoxIcon.Error);
             textBox.Focus();
